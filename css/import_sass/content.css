@@ -1,122 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Ubuntu");
-.main__wrapper {
-  max-width: 1920px;
-  margin: 0 auto; }
-
-.header {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background: url(../img/header-bg.jpg) no-repeat;
-  background-size: 100% 100%; }
-  .header__menu {
-    padding-top: 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto; }
-    .header__menu__logo a {
-      text-decoration: none;
-      font-family: 'Proxima Nova', sans-serif;
-      font-size: 21px;
-      font-weight: 700;
-      line-height: 36px;
-      color: #ffffff; }
-      .header__menu__logo a b {
-        color: #bf79fd; }
-    .header__menu__nav ul {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 428px;
-      list-style: none; }
-      .header__menu__nav ul li a {
-        color: #ffffff;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        text-decoration: none;
-        text-transform: uppercase; }
-    .header__menu__phone span {
-      color: #ffffff;
-      font-family: "Ubuntu", sans-serif;
-      font-size: 16px;
-      font-weight: 700;
-      text-transform: uppercase; }
-  .header__content {
-    position: relative;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -30%);
-    max-width: 778px;
-    width: 100%;
-    height: 380px; }
-    .header__content h3 {
-      text-align: center;
-      font-weight: 400;
-      color: #ca8efe;
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
-      line-height: 15px;
-      text-transform: uppercase; }
-    .header__content h1 {
-      text-align: center;
-      color: #ffffff;
-      font-family: 'Roboto', sans-serif;
-      font-size: 60px;
-      font-weight: 400;
-      line-height: 61px; }
-    .header__content p {
-      text-align: center;
-      color: #d4c5e1;
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 18px;
-      line-height: 30px; }
-    .header__content button {
-      cursor: pointer;
-      position: relative;
-      left: 50%;
-      margin-left: -105px;
-      width: 210px;
-      height: 52px;
-      border-radius: 26px;
-      background-color: #925ebf;
-      border: none;
-      color: #ffffff;
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 18px;
-      font-weight: 500;
-      line-height: 32px; }
-  .header__bottom {
-    left: 50%;
-    transform: translate(-50%);
-    position: absolute;
-    bottom: 0;
-    width: 242px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; }
-    .header__bottom h4 {
-      text-align: center;
-      opacity: 0.4;
-      color: #ffffff;
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 32px; }
-    .header__bottom__button {
-      cursor: pointer; }
-
-@media (max-width: 640px) {
-  .header__menu {
-    flex-direction: column; } }
-
 .content {
   width: 100%;
   padding-top: 50px;
@@ -140,19 +21,27 @@
       font-size: 18px;
       line-height: 30px; }
   .content__wrapper {
+    display: -webkit-box;
     display: flex;
     width: 100%; }
     .content__wrapper__left {
       width: 50%; }
       .content__wrapper__left__title {
+        display: -webkit-box;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
+        -webkit-box-pack: justify;
         justify-content: space-between;
+        -webkit-box-align: end;
         align-items: flex-end;
         height: 290px; }
         .content__wrapper__left__title__line1 {
           margin-top: 10px;
+          display: -webkit-box;
           display: flex;
+          -webkit-box-align: center;
           align-items: center; }
           .content__wrapper__left__title__line1 h3 {
             margin: 0;
@@ -189,9 +78,14 @@
           margin-right: 20px; }
       .content__wrapper__left__img {
         margin-top: 119px;
+        display: -webkit-box;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
+        -webkit-box-align: center;
         align-items: center;
+        -webkit-box-pack: center;
         justify-content: center; }
         .content__wrapper__left__img img {
           width: 450px;
@@ -199,14 +93,20 @@
     .content__wrapper__right {
       width: 50%; }
       .content__wrapper__right__img {
+        display: -webkit-box;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
+        -webkit-box-align: center;
         align-items: center;
+        -webkit-box-pack: center;
         justify-content: center; }
         .content__wrapper__right__img img {
           width: 357px;
           height: 353px; }
       .content__wrapper__right__title__line1 {
+        display: -webkit-box;
         display: flex; }
         .content__wrapper__right__title__line1 img {
           margin-right: 10px; }

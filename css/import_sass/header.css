@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Ubuntu");
 .main__wrapper {
   max-width: 1920px;
   margin: 0 auto; }
 
 .header {
+  position: relative;
   width: 100%;
-  height: 958px;
+  height: 100vh;
   background: url(../img/header-bg.jpg) no-repeat;
   background-size: 100% 100%; }
   .header__menu {
@@ -54,9 +56,9 @@
   .header__content {
     position: relative;
     left: 50%;
-    top: 40%;
-    -webkit-transform: translate(-50%, -40%);
-    transform: translate(-50%, -40%);
+    top: 30%;
+    -webkit-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
     max-width: 778px;
     width: 100%;
     height: 380px; }
@@ -82,6 +84,7 @@
       font-size: 18px;
       line-height: 30px; }
     .header__content button {
+      cursor: pointer;
       position: relative;
       left: 50%;
       margin-left: -105px;
@@ -100,7 +103,7 @@
     -webkit-transform: translate(-50%);
     transform: translate(-50%);
     position: absolute;
-    bottom: 25px;
+    bottom: 0;
     width: 242px;
     height: 100px;
     display: -webkit-box;
@@ -122,3 +125,9 @@
       line-height: 32px; }
     .header__bottom__button {
       cursor: pointer; }
+
+@media (max-width: 640px) {
+  .header__menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column; } }
