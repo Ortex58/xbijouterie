@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Ubuntu");
+@font-face {
+  font-family: Proxima Nova;
+  src: url("../font/Proxima Nova.ttf"); }
+
 .main__wrapper {
   max-width: 1920px;
   margin: 0 auto; }
@@ -49,7 +53,7 @@
         text-transform: uppercase; }
     .header__menu__phone span {
       color: #ffffff;
-      font-family: "Ubuntu", sans-serif;
+      font-family: 'Ubuntu', sans-serif;
       font-size: 16px;
       font-weight: 700;
       text-transform: uppercase; }
