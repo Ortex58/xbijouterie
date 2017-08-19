@@ -117,7 +117,7 @@
     .header__bottom__button {
       cursor: pointer; }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .header {
     background: #1D2A4C; }
   .header__menu {
@@ -266,7 +266,7 @@
         font-weight: 400;
         margin-top: 15px; }
 
-@media (max-width: 730px) {
+@media (max-width: 768px) {
   .content__wrapper__left {
     width: 100%; }
   .content__wrapper__right {
