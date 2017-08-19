@@ -183,3 +183,8 @@
 
 }
 
+@media (max-width: 380px) {
+	.header__content p {
+		display: none;
+	}
+}

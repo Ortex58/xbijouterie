@@ -143,6 +143,10 @@
       font-weight: 400;
       line-height: 31px; } }
 
+@media (max-width: 380px) {
+  .header__content p {
+    display: none; } }
+
 .content {
   width: 100%;
   padding-top: 50px;
