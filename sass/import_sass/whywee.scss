@@ -1,0 +1,72 @@
+.whyWee {
+	//height: 726px;
+	width: 100%;
+	background-color: #f6f6f6;
+	&__wrapper {
+		max-width: 1140px;
+		margin: 0 auto;
+		padding-top: 75px;
+		//height: 200px;
+		padding-bottom: 130px;
+	}
+	&__header {
+		text-align: center;
+		h1 {
+			margin: 0;
+			color: #925ebf;
+			font-family: Roboto,  sans-serif;
+			font-size: 15px;
+			font-weight: 400;
+			text-transform: uppercase;
+			line-height: 34px;
+		}
+		h2 {
+			margin: 0;
+			color: #26272d;
+			font-family: Roboto,  sans-serif;
+			font-size: 60px;
+			font-weight: 400;
+			line-height: 61px;
+			letter-spacing: -2.4px;
+		}
+		p {
+			margin: 45px 0;
+			color: #7b7b7b;
+			font-family: Ubuntu,  sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 19px;
+		}
+	}
+	&__content {
+		margin-top: 75px;
+		&__allBlocks {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			align-items: center;
+			&__block {
+				padding: 37px 5px 37px 5px;
+				text-align: center;
+				width: 315px;
+				height: auto;
+				margin: 5px;
+				h3 {
+					color: #26272d;
+					font-family: Roboto,  sans-serif;
+					font-size: 20px;
+					font-weight: 400;
+					line-height: 34px;
+					text-transform: uppercase;
+				}
+				p {
+					color: #7b7b7b;
+					font-family: Ubuntu,  sans-serif;
+					font-size: 17px;
+					font-weight: 400;
+					line-height: 28px;
+				}
+			}
+		}
+	}
+}

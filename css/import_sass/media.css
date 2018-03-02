@@ -7,7 +7,8 @@
   .header__menu__phone {
     display: none; }
   .header__menu__btn {
-    display: block; }
+    display: block;
+    cursor: pointer; }
   .header__menu__nav ul {
     display: none;
     text-align: center;
@@ -50,4 +51,13 @@
     font-size: 15px;
     margin: 14px auto; }
   .header__content h3 {
-    margin: 50px 0 0 0; } }
+    margin: 50px 0 0 0; }
+  /*Why we*/
+  .whyWee__header h2 {
+    font-size: 35px;
+    line-height: 36px; }
+  .whyWee__content__allBlocks {
+    -webkit-box-pack: center;
+    justify-content: center; }
+  .whyWee__content__allBlocks__block {
+    margin: 5px; } }

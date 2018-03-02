@@ -4,7 +4,7 @@
   src: url("../font/Proxima Nova.ttf"); }
 
 .main__wrapper {
-  max-width: 1920px;
+  max-width: 1975px;
   margin: 0 auto; }
 
 .header {
@@ -20,7 +20,7 @@
     background-size: cover; }
     .header__wrapper--pageDown {
       position: absolute;
-      bottom: -33px;
+      bottom: -28px;
       left: 50%;
       -webkit-transform: translate(-50%);
       transform: translate(-50%);
