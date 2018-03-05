@@ -29,7 +29,28 @@ $(document).ready(function() {
 		    $(".home img").addClass('animated swing');
 		   
 		});
+	//Slider slick
+	$('.shops__content__slider').slick({
+    dots: false,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 1,
+	  centerMode: true,
+	  variableWidth: true
+	  });
 
+/*  $(window).resize(function(){
+
+       if ($(window).width() <= 600) {  
+
+              $('.shops__content__slider').slick({
+						    slidesToShow: 1,
+						    slidesToScroll: 1
+						  });
+
+       }     
+
+});*/
 
 });
 

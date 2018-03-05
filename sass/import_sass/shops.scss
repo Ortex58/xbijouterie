@@ -1,0 +1,99 @@
+.shops {
+	background-color: #f6f6f6;
+	&__wrapper {
+		padding: 110px 0 110px 0;
+		max-width: 1345px;
+		margin: 0 auto;
+		background-color: #f6f6f6;
+	}
+	&__header {
+		text-align: center;
+		h3 {
+			margin: 0;
+			color: #000000;
+			font-family: Roboto,  sans-serif;
+			font-size: 60px;
+			font-weight: 400;
+			letter-spacing: -2.4px;
+			line-height: 50px;
+		}
+		p {
+			color: #7b7b7b;
+			font-family: Ubuntu,  sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 30px;
+			margin: 45px 0;
+			max-width: 772px;
+			margin: 40px auto;
+		}
+	}
+	&__content {
+		.slick-prev:before, .slick-next:before {
+			font-size: 40px;
+			width: 23px;
+			height: 41px;
+			color: #26272d;
+		}
+		.slick-next {
+			right: -5px;
+		}
+		&__slider {
+			position: relative;
+			padding: 0 25px;
+			width: 70%;
+			margin: 0 auto;
+			&__slide {
+				max-width: 280px;
+				text-align: center;
+				background-color: #ffffff;
+				margin: 0 10px;
+				&__up {
+					//background-color: grey;
+					img {
+						width: 100%;
+					}
+				}
+				&__down {
+					padding: 0 15px 25px 15px;
+					h3 {
+						margin: 30px 0;
+						color: #000000;
+						font-family: Ubuntu,  sans-serif;
+						font-size: 20px;
+						font-weight: normal;
+						line-height: 27px;
+					}
+					p {
+						color: #7c7c7c;
+						font-family: Ubuntu,  sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						line-height: 16px;
+					}
+					a {
+						margin: 0 auto;
+						display: block;
+						text-align: center;
+	    			max-width: 155px;
+	    			height: 48px;
+	    			border: 2px solid #925ebf;
+	    			border-radius: 25px;
+	    			color: #000000;
+						font-family: Ubuntu,  sans-serif;
+						font-size: 16px;
+						font-weight: normal;
+						line-height: 48px;
+						text-decoration: none;
+						&:hover {
+							background-color: rgba(146, 94, 191, 0.9);
+							transition: 0.3s;
+							//background-color: #925ebf;
+							color: #ffffff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
