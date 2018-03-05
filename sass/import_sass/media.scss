@@ -80,5 +80,55 @@
 	.whyWee__content__allBlocks__block {
 		margin: 5px;
 	}
+	/*ourCompany*/
+
+	.ourCompany__content__side{
+		flex-direction: column;	
+		align-items: center;
+	}
+	.ourCompany__content__side__up__paragraph p {
+		text-align: center;
+	}
+	.ourCompany__content__side__contactButton {
+		justify-content: center;
+	}
+	.side2 .ourCompany__content__side__up__paragraph p {
+		text-align: center;
+	}
+	.side2 {
+		flex-direction: column-reverse;
+	}
+	.side2 .ourCompany__content__side__contactButton {
+		justify-content: center;
+	}
+	.side2 .ourCompany__content__side__up__title, .ourCompany__content__side__up__title {
+		text-align: center;
+	}
+	.ourCompany__content__side__up__title {
+		justify-content: center;
+	}
+	.ourCompany__header h3 {
+		font-size: 40px;
+		line-height: 0px;
+	}
+	.ourCompany__content__side__up__title h4 {
+		line-height: 30px;
+	}
+	.ourCompany__header p {
+		margin: 30px 0;
+	}
+	.ourCompany__content__side__up {
+		width: 100%;
+	}
+	.ourCompany__content__side__down {
+		display: block;
+		//width: 100%;
+		//background-color: black;
+	}
+	.ourCompany__content__side__down img {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
 }
 	

@@ -11,7 +11,9 @@
 	}
 	&__header {
 		text-align: center;
-		h1 {
+		max-width: 776px;
+		margin: 0 auto;
+		h2 {
 			margin: 0;
 			color: #925ebf;
 			font-family: Roboto,  sans-serif;
@@ -20,7 +22,7 @@
 			text-transform: uppercase;
 			line-height: 34px;
 		}
-		h2 {
+		h3 {
 			margin: 0;
 			color: #26272d;
 			font-family: Roboto,  sans-serif;

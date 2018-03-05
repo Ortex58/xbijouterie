@@ -7,8 +7,10 @@
     padding-top: 75px;
     padding-bottom: 130px; }
   .whyWee__header {
-    text-align: center; }
-    .whyWee__header h1 {
+    text-align: center;
+    max-width: 776px;
+    margin: 0 auto; }
+    .whyWee__header h2 {
       margin: 0;
       color: #925ebf;
       font-family: Roboto,  sans-serif;
@@ -16,7 +18,7 @@
       font-weight: 400;
       text-transform: uppercase;
       line-height: 34px; }
-    .whyWee__header h2 {
+    .whyWee__header h3 {
       margin: 0;
       color: #26272d;
       font-family: Roboto,  sans-serif;
