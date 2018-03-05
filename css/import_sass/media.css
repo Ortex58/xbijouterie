@@ -19,6 +19,7 @@
     min-width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-transform: translate(-50%);
     transform: translate(-50%); }
@@ -34,6 +35,7 @@
   .header__menu__nav ul li a:hover {
     border-radius: 0;
     background-color: rgba(146, 94, 191, 0.2);
+    -webkit-transition: 0.3s;
     transition: 0.3s; }
   /*header content*/
   .header__content {
@@ -58,6 +60,7 @@
     line-height: 36px; }
   .whyWee__content__allBlocks {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .whyWee__content__allBlocks__block {
     margin: 5px; }
@@ -65,27 +68,33 @@
   .ourCompany__content__side {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .ourCompany__content__side__up__paragraph p {
     text-align: center; }
   .ourCompany__content__side__contactButton {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .side2 .ourCompany__content__side__up__paragraph p {
     text-align: center; }
   .side2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse; }
   .side2 .ourCompany__content__side__contactButton {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .side2 .ourCompany__content__side__up__title, .ourCompany__content__side__up__title {
     text-align: center; }
   .ourCompany__content__side__up__title {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .ourCompany__header h3 {
     font-size: 40px;
@@ -116,4 +125,6 @@
   .shops__content__slider__slide__down a {
     height: 25px;
     line-height: 25px;
-    font-size: 14px; } }
+    font-size: 14px; }
+  .assortment__content h3 {
+    font-size: 45px; } }
