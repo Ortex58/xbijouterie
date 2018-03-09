@@ -39,6 +39,24 @@ $(document).ready(function() {
 	  variableWidth: true
 	  });
 
+	$('.foods__slider').slick({
+    
+	  });
+	$('.people__slider').slick({
+    	prevArrow: '<button type="button" class="slick-prev slick-arrow"><img src="img/arrow-left.png"></button>',
+		nextArrow: '<button type="button" class="slick-next slick-arrow"><img src="img/arrow-right.png"></button>',
+		
+		
+	  });
+
+	$('.galery__contentSlider').slick({
+    	arrows: false,
+    	dots: true
+
+	  });
+
+/*FontAwesomeConfig = { searchPseudoElements: true };*/
+
 /*  $(window).resize(function(){
 
        if ($(window).width() <= 600) {  

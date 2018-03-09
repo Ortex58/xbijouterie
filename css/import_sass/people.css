@@ -1,0 +1,121 @@
+.people {
+  padding: 77px 0; }
+  .people__wrapper {
+    max-width: 1080px;
+    margin: 0 auto; }
+  .people__slider {
+    width: 100%;
+    max-width: 888px;
+    margin: 0 auto; }
+    .people__slider .slick-prev:before, .people__slider .slick-next:before {
+      color: #4e1111;
+      content: ""; }
+    .people__slider .slick-prev {
+      left: 10px;
+      z-index: 1; }
+    .people__slider .slick-next {
+      right: 10px;
+      z-index: 2; }
+  .people__img {
+    position: relative;
+    width: 130px;
+    margin: 0 auto; }
+    .people__img::before {
+      content: "";
+      position: absolute;
+      left: -130px;
+      top: 20px;
+      background-image: url(../img/face_before.png);
+      width: 81px;
+      height: 81px; }
+    .people__img::after {
+      content: "";
+      position: absolute;
+      left: 177px;
+      top: 20px;
+      background-image: url(../img/face_after.png);
+      width: 81px;
+      height: 81px; }
+    .people__img img {
+      width: 100%; }
+  .people__description {
+    text-align: center; }
+    .people__description h3 {
+      color: #000000;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 22px; }
+    .people__description p {
+      color: #7b7b7b;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 30px;
+      max-width: 520px;
+      margin: 10px auto; }
+    .people__description__stars {
+      width: 145px;
+      height: 42px;
+      border: 2px solid #f4f4f5;
+      border-radius: 25px;
+      background-color: transparent;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 0 auto;
+      /* Hide the browser's default checkbox */
+      /* Create a custom checkbox */
+      /* On mouse-over, add a grey background color */
+      /* When the checkbox is checked, add a blue background */
+      /* Create the checkmark/indicator (hidden when not checked) */
+      /* Show the checkmark when checked */
+      /* Style the checkmark/indicator */
+      /*.container .checkmark:after {
+			  left: 9px;
+			  top: 5px;
+			  width: 5px;
+			  height: 10px;
+			  border: solid white;
+			  border-width: 0 3px 3px 0;
+			  -webkit-transform: rotate(45deg);
+			  -ms-transform: rotate(45deg);
+			  transform: rotate(45deg);
+			}*/ }
+      .people__description__stars .container {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; }
+      .people__description__stars .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer; }
+      .people__description__stars .checkmark {
+        position: absolute;
+        top: 5px;
+        left: 6px;
+        height: 14px;
+        width: 15px;
+        background-image: url(../img/star.png); }
+      .people__description__stars .container:hover input ~ .checkmark {
+        background-image: url(../img/star-hover.png); }
+      .people__description__stars .container input:checked ~ .checkmark {
+        background-image: url(../img/star-hover.png); }
+      .people__description__stars .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none; }
+      .people__description__stars .container input:checked ~ .checkmark:after {
+        display: block; }

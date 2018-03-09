@@ -1,0 +1,22 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome-all.min.css");
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .contacts__map {
+    width: 50%;
+    min-height: 450px; }
+  .contacts__contactData {
+    padding: 80px 0 0 80px;
+    width: 50%; }
+    .contacts__contactData__title {
+      text-align: left; }
+      .contacts__contactData__title h3 {
+        margin: 0;
+        color: #000000;
+        font-family: Roboto,  sans-serif;
+        font-size: 60px;
+        font-weight: normal;
+        line-height: 50px; }
+    .contacts__contactData__content table tr td i {
+      margin-right: 15px; }

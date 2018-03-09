@@ -1,3 +1,21 @@
+@media (max-width: 1120px) {
+	.foods__menu ul {
+		flex-direction: column;
+		width: auto;
+		align-items: center;
+	}
+	.foods__menu ul li {
+		width: 90%;
+		margin: 5px 0;
+	}
+	.foods__menu ul li:hover::after {
+	    //border: none;
+	    border-top: none;
+	}
+	.foods__items {
+		justify-content: center;
+	}
+}
 @media (max-width: 970px) {
 	/*header menu*/
 	.header__wrapper {
@@ -103,6 +121,7 @@
 	}
 	.side2 .ourCompany__content__side__up__title, .ourCompany__content__side__up__title {
 		text-align: center;
+		justify-content: center;
 	}
 	.ourCompany__content__side__up__title {
 		justify-content: center;
@@ -130,9 +149,27 @@
 		height: auto;
 		margin: 0 auto;
 	}
+	.plan__content {
+		flex-direction: column;
+    	align-items: center;
+	}
+	.people__description {
+		padding: 0 19px;
+	}
+	.people__description p {
+		font-size: 14px;
+		line-height: 25px;
+	}
 }
 //slides
 @media (max-width: 535px) {
+		.header__menu__logo {
+			font-size: 35px;
+		}
+		.ourCompany__header h3 {
+			font-size: 29px;
+			line-height: 25px;
+		}
 		.shops__content__slider__slide {
 			max-width: 120px;
 		}
@@ -153,6 +190,46 @@
 			font-size: 14px;
 		}
 		.assortment__content h3 {
-			font-size: 45px;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		.assortment__content h2 {
+			font-size: 12px;
+			line-height: 62px;
+		}
+		.foods__header h3 {
+			font-size: 40px;
+			line-height: 35px;
+		}
+		.foods__header p {
+			font-size: 14px;
+			line-height: 18px;
+		}
+		.whyWee__header h2 {
+			font-size: 14px;
+    		line-height: 18px;
+		}
+		.whyWee__header h3 {
+			font-size: 30px;
+			line-height: 39px;
+		}
+		.whyWee__header p {
+			font-size: 16px;
+			line-height: 19px;
+		}
+		.plan__header h3 {
+			font-size: 40px;
+		}
+		.people__img {
+			width: 30%;
+		}
+		.people__img::before, .people__img::after {
+			display: none;
+		}
+		.galery__header h3 {
+			font-size: 38px;
+		}
+		.galery__contentSlider .slick-dots li button:before {
+		    font-size: 12px;
 		}
 	}

@@ -1,0 +1,88 @@
+.plan {
+  background-color: #f4f4f5; }
+  .plan__wrapper {
+    padding: 110px 0 110px 0;
+    max-width: 1170px;
+    margin: 0 auto; }
+  .plan__header {
+    text-align: center; }
+    .plan__header h3 {
+      margin: 0;
+      color: #000000;
+      font-family: Roboto,  sans-serif;
+      font-size: 60px;
+      font-weight: 400;
+      letter-spacing: -2.4px;
+      line-height: 50px; }
+    .plan__header p {
+      color: #7b7b7b;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      margin: 45px 0;
+      max-width: 772px;
+      margin: 40px auto; }
+  .plan__content {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .plan__content__item {
+      margin: 5px;
+      padding: 0 5px;
+      min-height: 506px;
+      background-color: #ffffff; }
+      .plan__content__item h3 {
+        padding-top: 60px;
+        margin: 0;
+        color: #925ebf;
+        font-family: Ubuntu,  sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px; }
+      .plan__content__item h4 {
+        font-family: Ubuntu,  sans-serif;
+        color: #000000;
+        font-size: 60px;
+        font-weight: bold;
+        margin: 0;
+        line-height: 34px; }
+        .plan__content__item h4 b {
+          vertical-align: text-top;
+          font-size: 28px;
+          font-weight: bold;
+          line-height: 49px; }
+      .plan__content__item h5 {
+        font-family: Ubuntu,  sans-serif;
+        color: #999999;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 62px;
+        margin: 0; }
+      .plan__content__item p {
+        font-family: Ubuntu,  sans-serif;
+        color: #000000;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 32px;
+        margin: 0; }
+      .plan__content__item a {
+        font-family: Ubuntu,  sans-serif;
+        display: block;
+        width: 233px;
+        height: 50px;
+        background-color: #925ebf;
+        color: #ffffff;
+        border-radius: 25px;
+        margin: 0 auto;
+        text-decoration: none;
+        line-height: 47px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 37px; }
