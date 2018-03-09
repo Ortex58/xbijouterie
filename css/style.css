@@ -803,6 +803,152 @@
         .contacts__contactData__content table tr td svg {
           margin-right: 10px; }
 
+.contactForm {
+  background-color: #f4f4f5;
+  padding: 110px 0; }
+  .contactForm__wrapper {
+    text-align: center;
+    max-width: 777px;
+    margin: 0 auto; }
+  .contactForm__header h3 {
+    color: #26272d;
+    font-family: Roboto,  sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0; }
+  .contactForm__header p {
+    color: #7b7b7b;
+    font-family: Ubuntu,  sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0; }
+  .contactForm__content__form {
+    max-width: 708px;
+    margin: 0 auto; }
+  .contactForm__content__name-email {
+    width: 100%;
+    max-width: 708px;
+    display: flex;
+    justify-content: space-between; }
+    .contactForm__content__name-email input {
+      width: 345px;
+      height: 50px;
+      border: 1px solid #dedede; }
+      .contactForm__content__name-email input::-webkit-input-placeholder {
+        color: #999999;
+        padding-left: 18px;
+        font-family: Ubuntu,  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 26px; }
+      .contactForm__content__name-email input:-moz-placeholder {
+        color: #999999;
+        padding-left: 18px;
+        font-family: Ubuntu,  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 26px; }
+      .contactForm__content__name-email input::-moz-placeholder {
+        color: #999999;
+        padding-left: 18px;
+        font-family: Ubuntu,  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 26px; }
+      .contactForm__content__name-email input:-ms-input-placeholder {
+        color: #999999;
+        padding-left: 18px;
+        font-family: Ubuntu,  sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 26px; }
+  .contactForm__content__textarea textarea {
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+    min-height: 140px;
+    border: 1px solid #dedede; }
+    .contactForm__content__textarea textarea::-webkit-input-placeholder {
+      color: #999999;
+      padding: 18px 0 0 18px;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 26px; }
+    .contactForm__content__textarea textarea:-moz-placeholder {
+      color: #999999;
+      padding: 18px 0 0 18px;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 26px; }
+    .contactForm__content__textarea textarea::-moz-placeholder {
+      color: #999999;
+      padding: 18px 0 0 18px;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 26px; }
+    .contactForm__content__textarea textarea:-ms-input-placeholder {
+      color: #999999;
+      padding: 18px 0 0 18px;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 26px; }
+  .contactForm__content__bt {
+    margin-top: 20px; }
+    .contactForm__content__bt input {
+      width: 225px;
+      height: 50px;
+      background-color: #925EBF;
+      border: 1px solid #dedede;
+      border-radius: 25px;
+      color: #ffffff;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 18px;
+      font-weight: 500; }
+    .contactForm__content__bt p {
+      color: #7c7c7c;
+      font-family: Ubuntu,  sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px; }
+
+.footer {
+  height: 90px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center; }
+  .footer__wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+  .footer__title {
+    display: block;
+    color: #7c7c7c;
+    font-family: Ubuntu,  sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px; }
+  .footer__social {
+    max-width: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #7c7c7c;
+    font-family: Ubuntu,  sans-serif;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px; }
+    .footer__social svg {
+      color: #925ebf; }
+
 @media (max-width: 1120px) {
   .foods__menu ul {
     flex-direction: column;
@@ -935,7 +1081,14 @@
     font-size: 9px;
     line-height: 41px; }
   .contacts__contactData__content table {
-    margin: 50px auto 0 auto; } }
+    margin: 50px auto 0 auto; }
+  .contactForm__content__name-email {
+    flex-direction: column;
+    align-items: center; }
+  .contactForm__content__name-email input {
+    margin: 10px auto; }
+  .contactForm__content__textarea {
+    padding: 0 10px; } }
 
 @media (max-width: 535px) {
   .header__menu__logo {
@@ -986,7 +1139,17 @@
   .galery__header h3 {
     font-size: 38px; }
   .galery__contentSlider .slick-dots li button:before {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .contactForm__content__name-email input {
+    width: 288px; }
+  .contactForm__header h3 {
+    font-size: 46px; }
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: center; }
+  .footer__title, .footer__social {
+    height: 45px;
+    line-height: 45px; } }
 
 .sandwich {
   width: 100%;

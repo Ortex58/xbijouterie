@@ -188,6 +188,16 @@
 	.contacts__contactData__content table {
 		margin: 50px auto 0 auto;
 	}
+	.contactForm__content__name-email {
+		flex-direction: column;
+    align-items: center;
+	}
+	.contactForm__content__name-email input {
+		margin: 10px auto;
+	}
+	.contactForm__content__textarea {
+		padding: 0 10px;
+	}
 }
 //slides
 @media (max-width: 535px) {
@@ -259,5 +269,19 @@
 		}
 		.galery__contentSlider .slick-dots li button:before {
 		    font-size: 12px;
+		}
+		.contactForm__content__name-email input {
+			width: 288px;
+		}
+		.contactForm__header h3 {
+			font-size: 46px;
+		}
+		.footer__wrapper {
+			flex-direction: column;
+			align-items: center;
+		}
+		.footer__title, .footer__social {
+			height: 45px;
+			line-height: 45px;
 		}
 	}

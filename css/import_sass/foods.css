@@ -29,10 +29,8 @@
     .foods__menu ul {
       padding: 0 15px;
       display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
       justify-content: space-between;
       width: 100%;
       list-style-type: none; }
@@ -74,15 +72,11 @@
       display: none; }
   .foods__items {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   .foods__item {
     margin: 6px;

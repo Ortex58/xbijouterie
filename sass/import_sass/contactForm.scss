@@ -1,0 +1,97 @@
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content; }
+  &:-moz-placeholder           { @content; }
+  &::-moz-placeholder          { @content; }
+  &:-ms-input-placeholder      { @content; }  
+}
+.contactForm {
+	background-color: #f4f4f5;
+	padding: 110px 0;
+	&__wrapper {
+		text-align: center;
+		max-width: 777px;
+		margin: 0 auto;
+	}
+	&__header {
+		h3 {
+			color: #26272d;
+			font-family: Roboto,  sans-serif;
+			font-size: 60px;
+			font-weight: 400;
+			line-height: 50px;
+			margin: 0;
+		}
+		p {
+			color: #7b7b7b;
+			font-family: Ubuntu,  sans-serif;
+			font-size:18px;
+			font-weight: normal;
+			line-height: 40px;
+			margin: 0;
+		}
+	}
+	&__content {
+		&__form {
+			max-width: 708px;
+			margin: 0 auto;
+		}
+		&__name-email {
+			width: 100%;
+			max-width: 708px;
+			display: flex;
+    	justify-content: space-between;
+			input {
+				width: 345px;
+				height: 50px;
+				border: 1px solid #dedede;
+				@include placeholder {
+			    color: #999999;
+			    padding-left: 18px;
+					font-family: Ubuntu,  sans-serif;
+					font-size: 16px;
+					font-weight: normal;
+					line-height: 26px;
+			  }
+			}
+		}
+		&__textarea {
+			//width: 100%;
+			textarea {
+				margin-top: 20px;
+				padding: 0;
+				width: 100%;
+				min-height: 140px;
+				border: 1px solid #dedede;
+				@include placeholder {
+			    color: #999999;
+			    padding: 18px 0 0 18px;
+					font-family: Ubuntu,  sans-serif;
+					font-size: 16px;
+					font-weight: normal;
+					line-height: 26px;
+			  }
+			}
+		}
+		&__bt {
+			margin-top: 20px;
+			input {
+				width: 225px;
+				height: 50px;
+				background-color: #925EBF;
+				border: 1px solid #dedede;
+				border-radius: 25px;
+				color: #ffffff;
+				font-family: Ubuntu,  sans-serif;
+				font-size: 18px;
+				font-weight: 500;
+			}
+			p {
+				color: #7c7c7c;
+				font-family: Ubuntu,  sans-serif;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 26px;
+			}
+		}
+	}
+}
