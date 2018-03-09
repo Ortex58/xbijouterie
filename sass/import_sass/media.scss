@@ -160,6 +160,34 @@
 		font-size: 14px;
 		line-height: 25px;
 	}
+	.contacts {
+	    flex-direction: column-reverse;
+	    padding: 80px 0;
+	}
+	.contacts__contactData {
+		width: 100%;
+	}
+	.contacts__map {
+		width: 100%;
+	}
+	.contacts__contactData__title {
+		text-align: center;
+		padding: 0;
+	}
+	.contacts__contactData__title h3 {
+	    font-size: 31px;
+	}
+	.contacts__contactData__content table tr .item {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	.contacts__contactData__content table tr .item-des {
+	    font-size: 9px;
+	    line-height: 41px;
+	}
+	.contacts__contactData__content table {
+		margin: 50px auto 0 auto;
+	}
 }
 //slides
 @media (max-width: 535px) {
