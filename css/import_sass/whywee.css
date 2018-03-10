@@ -36,9 +36,16 @@
   .whyWee__content {
     margin-top: 75px; }
     .whyWee__content__allBlocks {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
+      -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center; }
       .whyWee__content__allBlocks__block {
         padding: 37px 5px 37px 5px;

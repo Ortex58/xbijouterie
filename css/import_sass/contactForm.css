@@ -25,70 +25,78 @@
   .contactForm__content__name-email {
     width: 100%;
     max-width: 708px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between; }
     .contactForm__content__name-email input {
-      width: 345px;
+      width: 327px;
       height: 50px;
-      border: 1px solid #dedede; }
+      border: 1px solid #dedede;
+      padding-left: 18px;
+      outline: none; }
       .contactForm__content__name-email input::-webkit-input-placeholder {
+        padding-top: 36px;
         color: #999999;
-        padding-left: 18px;
         font-family: Ubuntu,  sans-serif;
         font-size: 16px;
         font-weight: normal;
-        line-height: 26px; }
+        line-height: 49px; }
       .contactForm__content__name-email input:-moz-placeholder {
+        padding-top: 36px;
         color: #999999;
-        padding-left: 18px;
         font-family: Ubuntu,  sans-serif;
         font-size: 16px;
         font-weight: normal;
-        line-height: 26px; }
+        line-height: 49px; }
       .contactForm__content__name-email input::-moz-placeholder {
+        padding-top: 36px;
         color: #999999;
-        padding-left: 18px;
         font-family: Ubuntu,  sans-serif;
         font-size: 16px;
         font-weight: normal;
-        line-height: 26px; }
+        line-height: 49px; }
       .contactForm__content__name-email input:-ms-input-placeholder {
+        padding-top: 36px;
         color: #999999;
-        padding-left: 18px;
         font-family: Ubuntu,  sans-serif;
         font-size: 16px;
         font-weight: normal;
-        line-height: 26px; }
+        line-height: 49px; }
   .contactForm__content__textarea textarea {
     margin-top: 20px;
-    padding: 0;
+    padding: 18px 0 0 18px;
     width: 100%;
+    width: -moz-available;
+    /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    outline: none;
     min-height: 140px;
     border: 1px solid #dedede; }
     .contactForm__content__textarea textarea::-webkit-input-placeholder {
       color: #999999;
-      padding: 18px 0 0 18px;
       font-family: Ubuntu,  sans-serif;
       font-size: 16px;
       font-weight: normal;
       line-height: 26px; }
     .contactForm__content__textarea textarea:-moz-placeholder {
       color: #999999;
-      padding: 18px 0 0 18px;
       font-family: Ubuntu,  sans-serif;
       font-size: 16px;
       font-weight: normal;
       line-height: 26px; }
     .contactForm__content__textarea textarea::-moz-placeholder {
       color: #999999;
-      padding: 18px 0 0 18px;
       font-family: Ubuntu,  sans-serif;
       font-size: 16px;
       font-weight: normal;
       line-height: 26px; }
     .contactForm__content__textarea textarea:-ms-input-placeholder {
       color: #999999;
-      padding: 18px 0 0 18px;
       font-family: Ubuntu,  sans-serif;
       font-size: 16px;
       font-weight: normal;

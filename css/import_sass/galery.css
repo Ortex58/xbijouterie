@@ -28,7 +28,11 @@
   .galery__contentSlider .slick-dots li.slick-active button:before {
     color: #b7c6e3; }
   .galery__contentSlider__slide__foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between; }
   .galery__contentSlider__slide__img {
     max-width: 387px;

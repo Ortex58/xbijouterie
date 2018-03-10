@@ -41,16 +41,18 @@
 			display: flex;
     	justify-content: space-between;
 			input {
-				width: 345px;
+				width: 327px;
 				height: 50px;
 				border: 1px solid #dedede;
+				padding-left: 18px;
+				outline: none;
 				@include placeholder {
-			    color: #999999;
-			    padding-left: 18px;
+					padding-top: 36px;
+				    color: #999999;
 					font-family: Ubuntu,  sans-serif;
 					font-size: 16px;
 					font-weight: normal;
-					line-height: 26px;
+					line-height: 49px;
 			  }
 			}
 		}
@@ -58,13 +60,17 @@
 			//width: 100%;
 			textarea {
 				margin-top: 20px;
-				padding: 0;
+				padding: 18px 0 0 18px;
 				width: 100%;
+			    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+			    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+			    width: fill-available;
+				outline: none;
 				min-height: 140px;
 				border: 1px solid #dedede;
 				@include placeholder {
 			    color: #999999;
-			    padding: 18px 0 0 18px;
+			    //padding: 18px 0 0 18px;
 					font-family: Ubuntu,  sans-serif;
 					font-size: 16px;
 					font-weight: normal;

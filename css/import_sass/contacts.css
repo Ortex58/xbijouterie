@@ -1,5 +1,7 @@
 /*@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome-all.min.css");*/
 .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   .contacts__map {
     width: 50%;
