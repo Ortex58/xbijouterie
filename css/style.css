@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Ubuntu:400,500");
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome-all.min.css");
 @font-face {
   font-family: Proxima Nova;
   src: url("../font/Proxima Nova.ttf"); }
@@ -766,6 +765,7 @@
     .galery__contentSlider__slide__img img {
       width: 100%; }
 
+/*@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome-all.min.css");*/
 .contacts {
   display: flex; }
   .contacts__map {
