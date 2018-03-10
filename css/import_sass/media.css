@@ -2,9 +2,11 @@
   .foods__menu ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: auto;
     -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .foods__menu ul li {
     width: 90%;
@@ -13,6 +15,7 @@
     border-top: none; }
   .foods__items {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; } }
 
 @media (max-width: 970px) {
@@ -36,6 +39,7 @@
     min-width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-transform: translate(-50%);
     transform: translate(-50%); }
@@ -51,6 +55,7 @@
   .header__menu__nav ul li a:hover {
     border-radius: 0;
     background-color: rgba(146, 94, 191, 0.2);
+    -webkit-transition: 0.3s;
     transition: 0.3s; }
   /*header content*/
   .header__content {
@@ -75,6 +80,7 @@
     line-height: 36px; }
   .whyWee__content__allBlocks {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .whyWee__content__allBlocks__block {
     margin: 5px; }
@@ -82,29 +88,36 @@
   .ourCompany__content__side {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .ourCompany__content__side__up__paragraph p {
     text-align: center; }
   .ourCompany__content__side__contactButton {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .side2 .ourCompany__content__side__up__paragraph p {
     text-align: center; }
   .side2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse; }
   .side2 .ourCompany__content__side__contactButton {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .side2 .ourCompany__content__side__up__title, .ourCompany__content__side__up__title {
     text-align: center;
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .ourCompany__content__side__up__title {
     -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .ourCompany__header h3 {
     font-size: 40px;
@@ -124,8 +137,10 @@
   .plan__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .people__description {
     padding: 0 19px; }
@@ -135,6 +150,7 @@
   .contacts {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     padding: 80px 0; }
   .contacts__contactData {
@@ -157,8 +173,10 @@
   .contactForm__content__name-email {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .contactForm__content__name-email input {
     margin: 10px auto; }
@@ -222,8 +240,10 @@
   .footer__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .footer__title, .footer__social {
     height: 45px;

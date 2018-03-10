@@ -16,6 +16,7 @@
   background: #fff;
   border: none;
   border-radius: 4px 4px 4px 4px;
+  -webkit-transition: top 0.2s, -webkit-transform 0.5s;
   transition: top 0.2s, -webkit-transform 0.5s;
   transition: transform 0.5s, top 0.2s;
   transition: transform 0.5s, top 0.2s, -webkit-transform 0.5s;
@@ -29,9 +30,11 @@
   background: #fff;
   border: none;
   border-radius: 4px 4px 4px 4px;
+  -webkit-transition: top 0.2s, -webkit-transform 0.5s;
   transition: top 0.2s, -webkit-transform 0.5s;
   transition: transform 0.5s, top 0.2s;
   transition: transform 0.5s, top 0.2s, -webkit-transform 0.5s;
+  -webkit-transition-delay: 0.2s, 0s;
   transition-delay: 0.2s, 0s; }
 
 .sw-footer {
@@ -42,7 +45,9 @@
   background: #fff;
   border: none;
   border-radius: 4px 4px 4px 4px;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s; }
 
 .sandwich.active .sw-topper {
