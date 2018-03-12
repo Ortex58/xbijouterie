@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 //Animate scroll to section from menu
-$(".header__menu__nav").on("click","a", function (event) {
+$(".main__wrapper").on("click","a", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
  
@@ -29,6 +29,14 @@ $(".header__menu__nav").on("click","a", function (event) {
 		    $(".header__content").slideToggle(1500);
 		   
 		});
+//Hide Mobile Menu when click
+		$(".header__menu__nav ul").click(function(){
+		    $(".header__menu__nav ul").slideToggle(1500);
+		    $(".header__content").slideToggle(1500);
+		    $(".sandwich").toggleClass("active");
+		   
+		});
+
 //Icon clock animate
 
 		$(".clock ").hover(function(){
