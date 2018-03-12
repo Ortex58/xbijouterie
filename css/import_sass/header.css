@@ -9,10 +9,8 @@
 
 .header {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   position: relative; }
   .header__wrapper {
@@ -38,13 +36,10 @@
     max-width: 1200px;
     background-color: transparent;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     color: #ffffff;
     padding: 0 10px;
@@ -60,11 +55,9 @@
     .header__menu__nav ul {
       padding: 0;
       display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       max-width: 430px;
       -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
       justify-content: space-between;
       list-style-type: none;
       font-size: 14px;

@@ -26,31 +26,24 @@
       margin: 45px 0; }
   .ourCompany__content {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column; }
     .ourCompany__content__side {
       display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
-      -ms-flex-align: center;
       align-items: center;
       -webkit-box-pack: center;
-      -ms-flex-pack: center;
       justify-content: center; }
       .ourCompany__content__side__up {
         width: 50%; }
         .ourCompany__content__side__up__title {
           text-align: right;
           display: -webkit-box;
-          display: -ms-flexbox;
           display: flex;
           -webkit-box-pack: end;
-          -ms-flex-pack: end;
           justify-content: flex-end; }
           .ourCompany__content__side__up__title h4 {
             margin: 0;
@@ -75,10 +68,8 @@
             line-height: 20px; }
       .ourCompany__content__side__contactButton {
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: end;
-        -ms-flex-pack: end;
         justify-content: flex-end; }
         .ourCompany__content__side__contactButton a {
           text-align: center;
@@ -94,22 +85,18 @@
           text-decoration: none; }
           .ourCompany__content__side__contactButton a:hover {
             background-color: rgba(146, 94, 191, 0.9);
-            -webkit-transition: 0.3s;
             transition: 0.3s;
             color: #ffffff; }
       .ourCompany__content__side__down {
         width: 50%;
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
         padding: 50px 0; }
 
 .side2 .ourCompany__content__side__up__title {
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
   text-align: left; }
 
@@ -118,5 +105,4 @@
 
 .side2 .ourCompany__content__side__contactButton {
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start; }
