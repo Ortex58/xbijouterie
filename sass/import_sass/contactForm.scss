@@ -57,14 +57,12 @@
 			}
 		}
 		&__textarea {
+			max-width: 708px;
 			//width: 100%;
 			textarea {
-				margin-top: 20px;
-				padding: 18px 0 0 18px;
-				width: 100%;
-			    width: -moz-available;          /* WebKit-based browsers will ignore this. */
-			    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-			    width: fill-available;
+				margin: 20px auto 0 auto;
+				padding: 0;
+				width: 100%-1%;
 				outline: none;
 				min-height: 140px;
 				border: 1px solid #dedede;
