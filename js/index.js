@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 //Animate scroll to section from menu
-$(".main__wrapper").on("click","a", function (event) {
+$(".main__wrapper").on("click",".header__menu__nav a", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
  
