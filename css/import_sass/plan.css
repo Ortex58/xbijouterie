@@ -81,3 +81,5 @@
         font-size: 18px;
         font-weight: 500;
         margin-top: 37px; }
+        .plan__content__item a:hover {
+          background-color: rgba(146, 94, 191, 0.8); }

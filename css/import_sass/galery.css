@@ -27,12 +27,15 @@
     font-size: 21px; }
   .galery__contentSlider .slick-dots li.slick-active button:before {
     color: #b7c6e3; }
-  .galery__contentSlider__slide__foto {
-    display: flex;
-    justify-content: space-between; }
-  .galery__contentSlider__slide__img {
-    max-width: 387px;
-    max-height: 297px;
-    margin: 8px; }
-    .galery__contentSlider__slide__img img {
-      width: 100%; }
+  .galery__contentSlider__slide {
+    outline: none; }
+    .galery__contentSlider__slide__foto {
+      display: flex;
+      justify-content: space-between; }
+    .galery__contentSlider__slide__img {
+      max-width: 387px;
+      max-height: 297px;
+      margin: 8px;
+      cursor: pointer; }
+      .galery__contentSlider__slide__img img {
+        width: 100%; }

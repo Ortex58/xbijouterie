@@ -41,3 +41,6 @@
     border-radius: 25px;
     text-decoration: none;
     background-color: #925ebf; }
+    .assortment__content a:hover {
+      background-color: rgba(146, 94, 191, 0.8);
+      border: 2px solid rgba(146, 94, 191, 0.8); }

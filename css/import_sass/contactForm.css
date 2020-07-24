@@ -99,6 +99,8 @@
       font-size: 18px;
       font-weight: 500;
       outline: none; }
+      .contactForm__content__bt input:hover {
+        background-color: rgba(146, 94, 191, 0.8); }
     .contactForm__content__bt p {
       color: #7c7c7c;
       font-family: Ubuntu,  sans-serif;

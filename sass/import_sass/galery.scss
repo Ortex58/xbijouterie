@@ -35,6 +35,7 @@
 			color: #b7c6e3;
 		}
 		&__slide {
+			outline: none;
 			&__foto {
 				display: flex;
 				justify-content: space-between;
@@ -43,6 +44,7 @@
 				max-width: 387px;
 				max-height: 297px;
 				margin: 8px;
+				cursor: pointer;
 				img {
 					width: 100%;
 				}

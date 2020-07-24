@@ -91,7 +91,10 @@
 				line-height: 47px;
 				font-size: 18px;
 				font-weight: 500;
-			    margin-top: 37px;
+				margin-top: 37px;
+				&:hover {
+					background-color:rgba(146,94,191,.8);
+				}
 			}
 		}
 	}
